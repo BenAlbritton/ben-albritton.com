@@ -1,5 +1,5 @@
 # Ben-Albritton.com
- 
+
 This is a personal project where I used angular to build a app/website. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
