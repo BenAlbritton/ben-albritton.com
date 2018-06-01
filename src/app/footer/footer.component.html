@@ -1,0 +1,33 @@
+
+<!-- This style sheet is for font awesomes icons in the footer -->
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+
+<!-- <footer id="footer">
+  <div class="container">
+ we could iterate through list to go through the components
+but for now this will have to do  
+      <ul class="soc-media-ul">
+          <li>
+              <a href={{link1}} class={{icon1}}></a>
+          </li>
+          <li>
+              <a href={{link2}} class={{icon2}} target="_blank"></a>
+          </li>
+      </ul>  
+    
+    
+   
+
+  </div>
+</footer> -->
+
+<footer id="footer">
+    <div class="container">
+        <ul class="soc-media-ul">
+            <li *ngFor="let foot of feets">
+                <a href={{foot.link}} class={{foot.icon}}></a> 
+            </li>
+        </ul>
+    </div>
+</footer>
+  
