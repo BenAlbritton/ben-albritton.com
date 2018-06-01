@@ -1,3 +1,22 @@
-<p>
-  experience works!
-</p>
+<section id="exp" class="sec-services">
+    <div class="container">
+        <h1>Work Experience</h1>
+        <hr />
+        <div class="row">
+          <p>From networking to software development, I have worked in various positions over the years.</p>
+          <p>Here's a fun list of technologies I have profesional experience in:</p>
+          <p></p>
+          <ul>
+          <li *ngFor="let it of exps"> {{ it.item }} </li>
+          </ul>
+            <!-- <ul>
+                <li>Microsoft SQL Server</li>
+                <li>Splunk</li>
+                <li>Dell KACE SQL Reports</li>
+                <li>Pervasive/Actian Data Connect</li>
+                <li>Microst Active Directory</li>
+            </ul>  -->
+            
+        </div>
+    </div>
+</section>

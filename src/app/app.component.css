@@ -279,4 +279,6 @@ a, .sec-contact .btn {
   .soc-media-ul a:hover, .soc-media-ul a:focus {
     color: #ad0000;
   }
-  
+  ul, li {
+    text-align: center;
+    }
