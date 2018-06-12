@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import { dropdown } from "./headerFunctions"
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  static newFunction(): any {
+    throw new Error("Method not implemented.");
+  }
   constructor() { }
     //welcome = "Welcome to Ben-Albritton.com"
   ngOnInit() {
   }
 
+  //newFunction(); 
+
 }
+function newFunction() {
+  function dropdown(): null {
+    return null;
+  }
+}
+

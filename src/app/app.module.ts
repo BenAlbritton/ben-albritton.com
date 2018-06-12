@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component'
 import { AboutMeComponent } from './home/about-me/about-me.component';
 import { ExperienceComponent } from './home/experience/experience.component';
+import { NavbarComponent } from './header/navbar/navbar.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { ExperienceComponent } from './home/experience/experience.component';
     FooterComponent,
     AboutMeComponent,
     ExperienceComponent,
+    NavbarComponent,
     
   ],
   imports: [
