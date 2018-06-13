@@ -152,6 +152,10 @@ a, .sec-contact .btn {
     /* background: url(https://source.unsplash.com/p3OzJuT_Dks/1920x1080) no-repeat center center; */
     background: url(https://source.unsplash.com/g2xKEEyd-_I) no-repeat center center; 
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
   }
   .sec-main:after {
     content: "";

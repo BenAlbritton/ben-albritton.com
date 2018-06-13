@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { element } from 'protractor';
 //import { dropdown } from "./headerFunctions"
 
 @Component({
@@ -7,21 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['../app.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  static newFunction(): any {
-    throw new Error("Method not implemented.");
-  }
+ 
   constructor() { }
-    //welcome = "Welcome to Ben-Albritton.com"
+  
   ngOnInit() {
   }
 
-  //newFunction(); 
+
 
 }
-function newFunction() {
-  function dropdown(): null {
-    return null;
-  }
-}
+
 
